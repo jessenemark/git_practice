@@ -54,67 +54,59 @@ h1 {
     position: relative;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 1000px;
     justify-content: center;
-    margin-top: 4rem;
 }
 
-.calc-body {
+.container {
+    position: relative;
     display: flex;
-    position: relative;
-    width: 26rem;
-    height: 31rem;
-    background-color: darkcyan;
-    justify-content: center;
-}
-
-/*.calc-body .view-window {
-    position: relative;
-    width: 23rem;
-    height: 5rem;
-    background-color: white;
-    margin-top: 1.5rem;
-}
-*/  
-
-#calculator {
-    padding: 10px;
-    border-radius: 1em;
-    height: 380px;
-    width: 400px;
-    margin: auto;
+    width: inherit;
+    height: 50%;
     background-color: aquamarine;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    justify-content: center;
+    align-items: center;
 }
 
-.display-box {
-    font-family: 'Roboto', sans-serif;
-    background-color: #dcdbe1;
-    border: solid black 0.5px;
-    color: black;
-    border-radius: 5px;
-    width: 100%;
-    height: 65%;
+.colour-box {
+    height: 25rem;
+    width: 30rem;
+    background-color: cornflowerblue;
+    position: relative;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-#btn {
-    background-color: darkgrey;
+.colour {
+    height: 4.5rem;
+    border: none;
+    flex: 1 1 9rem;
+    margin: 20px;
+    border-radius: 5%;
 }
-    
-input[type=button] {
-    font-family: 'Roboto', sans-serif;
-    background-color: darkorange;
-    color: black;
-    border: solid black 0.5px;
-    width: 100%;
-    border-radius: 5px;
-    height: 70%;
-    outline: none;
+
+.yellow {
+    background-color: yellow;
 }
-    
-input:active[type=button] {
-    background: #e5e5e5;
-    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-    box-shadow: inset 0px 0px 5px #c1c1c1;
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
 }
